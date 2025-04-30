@@ -12,3 +12,4 @@ interface D {
 interface B{
 	public abstract int methodB(String a);
 }
+
