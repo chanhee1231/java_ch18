@@ -13,3 +13,7 @@ interface B{
 	public abstract int methodB(String a);
 }
 
+interface C {
+	//입력 있고, 리턴 없다
+	public abstract void methodC(int a);
+}
