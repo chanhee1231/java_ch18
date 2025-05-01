@@ -19,7 +19,11 @@ public class InstanceLambdaMain {
 		a.method();
 		a2.method();
 		System.out.println("==============================");
-		
+		Atest atest = (b,k)-> b.bcd(k);
+		Atest atest2 = Bobject3::bcd;
+			
+		atest.abc(new Bobject3(), 10);
+		atest2.abc(new Bobject3(), 220);
 		System.out.println("The end");
 	}
 
